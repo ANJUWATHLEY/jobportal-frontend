@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# 🧑‍💼 Job Portal - React Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple Job Portal application built using **React.js**, where users can register, log in, and apply for jobs, and companies can post job listings.
 
-## Available Scripts
+## 🌐 Live Demo
+[Click here to visit the live site](https://effulgent-dolphin-969b40.netlify.app/)
 
-In the project directory, you can run:
+## 🛠 Tech Stack
+- React.js
+- React Router DOM
+- Axios
+- Netlify (Frontend Hosting)
 
-### `npm start`
+## 📁 Project Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+jobportal-backend/
+│── node_modules/
+│── public/
+│── src/
+│   │── components/
+│   │   │── Navbar.jsx
+│   │── pages/
+│   │   │── ApplyJob.jsx
+│   │   │── Dashboard.jsx
+│   │   │── Home.jsx
+│   │   │── JobList.jsx
+│   │   │── Login.jsx
+│   │   │── PostJob.jsx
+│   │   │── Register.jsx
+│   │── api.js
+│   │── App.css
+│   │── App.js
+│   │── App.jsx
+│   │── App.test.js
+│   │── index.css
+│   │── index.js
+│   │── logo.svg
+│   │── reportWebVitals.js
+│   │── setupTests.js
+│── package.json
+│── README.md
+│── .gitignore
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧾 Features
+- User Registration and Login
+- Company can post jobs
+- Users can apply to jobs
+- Responsive design
 
-### `npm test`
+## 🚧 Setup Locally
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/ANJUWATHLEY/jobportal-frontend
+   cd jobportal-frontend
+2. Install dependencies
+   npm install
+3. Start the development server
+   npm start
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
